@@ -1,0 +1,12 @@
+# ===============================
+# CUANDO SE CUENTA CON CONFIG SERVER
+# REALIZAR ESTA CONFIGURACION EN CADA MICROSERVICIO
+# ===============================
+spring:
+  application:
+    name: store-registry-service
+  cloud:
+    config:
+      uri: http://localhost:8010
+      username: root
+      password: s0p0rt3
